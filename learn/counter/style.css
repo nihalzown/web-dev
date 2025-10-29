@@ -1,0 +1,24 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#buttons{
+    text-align: center;
+
+}
+.btns{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-colour 0.25s;
+}
+
+.btns:hover{
+    background-color: hsl(182, 100%, 50%);
+}
